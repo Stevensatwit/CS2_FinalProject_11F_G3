@@ -8,22 +8,25 @@
 
 	
 <BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
-	<!-- TODO Add Nodes -->
+	<!-- Header Section -->
 	<top>
-		<Label text= "Welcome to Roulette!" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+		<HBox alignment="CENTER">
+			<Label text= "Welcome to Roulette!" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+		</HBox>
 	</top>
 	
+	<!-- Main Content -->
 	<center>
 		<VBox spacing="10" alignment="CENTER">
 			<!-- Roulette Wheel Image -->
-			<ImageView fx:id="rouletteImage" fitWidth="300" fitHeight="300"/>
+			<ImageView fx:id="rouletteImage" fitWidth="400" fitHeight="400"/>
 			
 			<!-- Bet Buttons -->
 			<HBox spacing="20" alignment="CENTER">
-				<Button text="Red/Black" onAction="#placeRedBlackBet"/>
-				<Button text="Green (0)" onAction="#placeGreenBet"/>
-				<Button text="Odd/Even" onAction="#placeOddEvenBet"/>
-				<Button text="Number" onAction="#placeNumberBet"/>
+				<Button text="Bet on Red/Black" onAction="#placeRedBlackBet"/>
+				<Button text="Bet on Green" onAction="#placeGreenBet"/>
+				<Button text="Bet on Odd/Even" onAction="#placeOddEvenBet"/>
+				<Button text="Bet on Number" onAction="#placeNumberBet"/>
 				<Button text="Spin!" style="-fx-background-color: green; -fx-text-fill: white;" onAction="#spinWheel"/>
 			</HBox>
 			
