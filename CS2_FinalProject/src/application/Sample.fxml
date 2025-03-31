@@ -20,7 +20,7 @@
 			
 			<!-- Bet Buttons -->
 			<HBox spacing="20" alignment="CENTER">
-				<Button text="Red" onAction="#placeRedBlackBet"/>
+				<Button text="Red/Black" onAction="#placeRedBlackBet"/>
 				<Button text="Green (0)" onAction="#placeGreenBet"/>
 				<Button text="Odd/Even" onAction="#placeOddEvenBet"/>
 				<Button text="Number" onAction="#placeNumberBet"/>
