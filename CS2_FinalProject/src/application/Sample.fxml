@@ -32,7 +32,7 @@
 			
 			<!-- Balance and Result Label -->
 			<Label fx:id="balanceLabel" text="Balance: $1000" style="-fx-font-size: 16px;"/>
-			<Label fx:id="resultLabel" text="-fx-font-size: 18px; -fx-test-fill: red;"/>
+			<Label fx:id="resultLabel" text="Ladies and Gentleman place your bets!"  style="-fx-font-size: 18px; -fx-test-fill: red;"/>
 		</VBox>
 	</center>
 </BorderPane>
