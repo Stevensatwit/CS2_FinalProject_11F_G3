@@ -27,6 +27,18 @@
 				<Button text="Bet on Green" onAction="#placeGreenBet"/>
 				<Button text="Bet on Odd/Even" onAction="#placeOddEvenBet"/>
 				<Button text="Bet on Number" onAction="#placeNumberBet"/>
+			</HBox>
+			
+			<!-- Second Row of Bet Buttons -->
+			<HBox spacing="20" alignment="CENTER">
+				<Button text="Bet on Dozen" onAction="#placeDozenBet"/>
+				<Button text="Bet on 1-18/19-36" onAction="#placeRangeBet"/>
+				<Button text="Bet on Column" onAction="#placeColumnBet"/>
+			</HBox>
+			
+			
+			<!-- Spin Button -->
+			<HBox alignment="CENTER">
 				<Button text="Spin!" style="-fx-background-color: green; -fx-text-fill: white;" onAction="#spinWheel"/>
 			</HBox>
 			
